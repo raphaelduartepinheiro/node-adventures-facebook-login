@@ -1,0 +1,15 @@
+{
+  "name": "node-adventures-facebook-login",
+  "version": "0.0.0",
+  "authors": [
+    "Raphael D. Pinheiro <raphaklaus@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,26 @@
+<html ng-app="node-adventure">
+<head>
+	<title>Node adventures - Facebook Login</title>
+	<script src="bower_components/angular/angular.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script> -->
+	<script src="bower_components/openfb/openfb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="bower_components/openfb/ngopenfb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="app.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body>
+	<div class="container" ng-controller="LoginCtrl">
+		<h1>Bem vindo a aplicação!</h1>
+		<p>
+			Nome:
+			<span ng-bind="name"></span>
+		</p>
+		<p>
+			Email:
+			<span ng-bind="email"></span>
+		</p>
+		<button class="btn btn-primary" ng-click="fbLogin()">Logar com Facebook</button>
+	</div>
+</body>
+</html>
